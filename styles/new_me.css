@@ -24,7 +24,7 @@
   margin-left: 845px;
   margin-right: 230px;
   text-align: end;
-  padding-top: 216px;
+  padding-top: 300px;
   /* display: flex;
   flex-direction: column;
   float: right;
@@ -69,7 +69,7 @@
   padding-top: 370px;
   margin-right: 320px;
 }
-.failure-info h1 {
+.failure-info h3 {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 24px;
@@ -83,4 +83,117 @@ li {
 }
 i {
   color: #16d887;
+}
+.my-plan h3 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 90px;
+}
+.plan h4 {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.plan h5 {
+  margin-top: 16px;
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+}
+.plan-container {
+  display: flex;
+  gap: 85px;
+  justify-content: center;
+}
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan img {
+  height: 95px;
+  width: 95px;
+  margin-bottom: 30px;
+}
+
+/* positive mindset section */
+.positive {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/watch.png");
+
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  height: 300px;
+  width: max-content;
+  /* margin: 0 auto; */
+  position: relative;
+}
+.positive div {
+  padding: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.positive div h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+}
+.positive div button {
+  margin-top: 25px;
+}
+
+/* future section */
+.future {
+  background: black;
+  color: white;
+  display: flex;
+  gap: 330px;
+  padding: 130px 230px;
+}
+
+.future h3 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+.future p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.future div img {
+  margin-right: 17px;
+}
+
+.future h4 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+.future input {
+  background: black;
+  border-color: white;
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+.future ::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+.future button {
+  background: #005fac;
+  color: white;
+}
+.future-div2 {
+  margin-right: 230px;
 }
