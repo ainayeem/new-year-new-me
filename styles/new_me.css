@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header section */
+.header {
+  /* background: url("../images/banner/banner3.png");
+  background-size: 80%;
+  position: ;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 80vh; */
+
+  background-image: url(../images/banner/banner3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.banner {
+  color: white;
+  margin-left: 845px;
+  margin-right: 230px;
+  text-align: end;
+  padding-top: 216px;
+  /* display: flex;
+  flex-direction: column;
+  float: right;
+  color: white;
+  align-items: center; 
+  width: 45%;
+  height: 800px;
+  justify-content: center; */
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 65px;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 24px;
+}
+.banner p {
+  margin-bottom: 32px;
+  padding-left: 250px;
+}
+.btn-primary {
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  padding: 20px 25px;
+  height: 64px;
+  border-radius: 5px;
+  background: white;
+}
+
+/* my failure sectin */
+.failure-container {
+  display: flex;
+  gap: 87px;
+  width: 80%;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+}
+.failure-info {
+  padding-top: 370px;
+  margin-right: 320px;
+}
+.failure-info h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.failure-info p {
+  margin-bottom: 16px;
+}
+li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+i {
+  color: #16d887;
+}
