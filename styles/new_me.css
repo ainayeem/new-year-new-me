@@ -44,6 +44,9 @@
   margin-bottom: 32px;
   padding-left: 250px;
 }
+button {
+  cursor: pointer;
+}
 .btn-primary {
   color: #005fac;
   font-weight: 600;
@@ -184,6 +187,9 @@ i {
   padding: 18px 30px;
   border-radius: 5px;
   margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
 }
 .future ::placeholder {
   font-weight: 400;
